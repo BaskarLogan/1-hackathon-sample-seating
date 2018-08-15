@@ -24,7 +24,7 @@ public class SectionController {
     public String home(Model model) {
     	val x = sectionsRepository.findAll();
     	model.addAttribute("sections", x);
-    	
+    	logger.info("This is inside home method of Section Controller");
         return "home";
     }
 }

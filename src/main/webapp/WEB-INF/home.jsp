@@ -11,7 +11,7 @@
 <body>
 	<h1>Welcome Baskar Loganathan</h1>
 
-	Select Section: <select name='role'>
+	Please Select Section: <select name='role'>
 		<c:forEach items="${sections}" var="section">
 			<option value="${section.id}">${section.name}</option>
 		</c:forEach>
