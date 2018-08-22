@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Welcome Baskar Loganathan</h1>
+	<h1>Welcome Back Baskar Loganathan</h1>
 
 	Please Select Section: <select name='role'>
 		<c:forEach items="${sections}" var="section">
